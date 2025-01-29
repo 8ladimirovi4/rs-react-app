@@ -1,1 +1,1 @@
-# rs_school_react
+## rs-react-app
