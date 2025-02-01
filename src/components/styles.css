@@ -1,0 +1,10 @@
+.custom-input-wrapper {
+  margin-top: 10px;
+}
+.custom-input {
+  border: 1px solid black;
+}
+
+.custom-input_label {
+  margin-top: 0px;
+}
