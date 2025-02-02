@@ -13,7 +13,8 @@
   overflow-wrap: break-word;
 }
 
-.custom-table th, .custom-table td {
+.custom-table th,
+.custom-table td {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
