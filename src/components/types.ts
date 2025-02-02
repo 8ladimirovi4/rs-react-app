@@ -5,13 +5,18 @@ export interface ErrorBoundaryProps {
 }
 
 export interface ButtonProps {
-  callBack?: () => void;
+  func?: () => void;
   title?: string;
-  status?: string;
+  status?: 'success' | 'error' | 'pending' | null;
+  color: string;
 }
+
+export type ButtonColor = 'blue' | 'red'; // Тип для цвета
 
 export interface InputProps {
   id: string;
-  label: string;
-  callBack?: (e: ChangeEvent<HTMLInputElement>) => void;
+  label?: string;
+  text?: string | undefined;
+  link?: string;
+  func?: (e: ChangeEvent<HTMLInputElement>) => void;
 }
