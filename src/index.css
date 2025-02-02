@@ -9,6 +9,7 @@ html {
   padding: 0;
   font-family: 'OpenSans-Regular', sans-serif;
   color: #65655f;
+  box-sizing: border-box;
 }
 
 h1,
