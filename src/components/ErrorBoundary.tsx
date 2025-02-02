@@ -17,7 +17,6 @@ export default class ErrorBoundary extends Component<
 
   componentDidCatch(error: Error, errorInfo: ErrorInfo) {
     this.setState({ error, errorInfo });
-    // Можно также отправить ошибку в сервис логирования
   }
 
   render() {
