@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import { CustomTableProps } from 'layouts/types';
 import { v4 as newGuid } from 'uuid';
+import './styles.css'
 
 class CustomTable extends Component<CustomTableProps> {
   static defaultProps = {
@@ -46,9 +47,9 @@ class CustomTable extends Component<CustomTableProps> {
       );
     } else {
       return (
-        <div>
+        <div className='table-wrapper'>
           {items && items.length > 0 ? (
-            <table className="table-auto border border-collapse border-gray-500">
+            <table className="custom-table table-auto border border-collapse border-gray-500">
               <thead>
                 <tr>
                   <th className="border border-gray-500 px-4 py-2">Name</th>
