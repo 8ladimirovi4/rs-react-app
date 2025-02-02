@@ -1,10 +1,11 @@
+import Main from 'layouts/Main';
 import './App.css';
 import ErrorBoundary from 'components/ErrorBoundary';
 
 function App() {
   return (
     <ErrorBoundary>
-      <div></div>
+      <Main />
     </ErrorBoundary>
   );
 }
