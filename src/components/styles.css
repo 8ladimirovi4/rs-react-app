@@ -1,0 +1,25 @@
+.custom-input-wrapper {
+  margin-top: 10px;
+}
+
+.input {
+  width: 500px;
+}
+
+.custom-table {
+  table-layout: fixed;
+  width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.custom-table th,
+.custom-table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
